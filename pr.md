@@ -4,10 +4,6 @@
 
 `git merge zido/master`
 
-`git add .`
-
-`git commit -m "同步"`
-
 `git push`
 
 ### 一旦功能有所改动,必须提交
