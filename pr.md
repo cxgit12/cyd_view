@@ -1,8 +1,12 @@
 ### 每天早上执行
 
-`git fetch`
+`git fetch zido`
 
-`git merge`
+`git merge zido/master`
+
+`git commit -m "同步"`
+
+`git push`
 
 ### 一旦功能有所改动,必须提交
 
