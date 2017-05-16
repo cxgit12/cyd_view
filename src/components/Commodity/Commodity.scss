@@ -30,7 +30,9 @@
     }
   }
 }
-
+.item-text{
+	background:#feeaca;
+}
 .item-dots {
   height: 20px;
 }
@@ -49,7 +51,8 @@ a.my-link {
   display: block;
   font-size: 16px;
   margin: 10px 0 0;
-  background: #f5f5f5;
+  background: #e06d2e;
+  color:#f9f23d;
 }
 
 p.price {

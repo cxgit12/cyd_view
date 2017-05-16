@@ -63,7 +63,7 @@ export default class Commodities extends React.Component {
     <Content style={{ padding: '10px' }}  className="coms-bg">
       <div style={{ width: 1000, margin: '0 auto' }}>
         <Spin spinning={this.state.loading}>
-          <div className="com-title"></div>
+          <div className="com-title"><img src="http://oow7renvm.bkt.clouddn.com/jptj.jpg"/></div>
           <div style={{ minHeight: 1044 }}>
             {list.length > 0 ? <QueueAnim component="ul">
                                  {list}

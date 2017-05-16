@@ -16,6 +16,12 @@ class Banner extends React.Component {
     let temp = 60
     const childrenData = [
       {
+        title: '<span style="font-size: 65px;color:white;line-height: 350px;">&nbsp;</span><span style="font-size: 18px;color:white;line-height: 100px;">&nbsp;</span>',
+        content: <span
+         style={{color: 'white'}}>&nbsp;&nbsp;</span>,
+        button: [<a href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-16086531040.27.3jc4D9&id=546334109345" key="href1">了解详情</a>,<a href="http://www.chuangyuandi.net.cn/news/23" key="href2">了解更多</a>]
+      },
+      {
         title: null,
         content: <QueueAnim type={['bottom','top']} className="word-vertical banner-text pull-right" style={{position:'relative',left:200,top:60}}>
         {[
@@ -31,12 +37,6 @@ class Banner extends React.Component {
         content: <span
           style={{color: 'white'}}>致力于钱币、纪念币、金银贵金属纪念品及邮票等收藏品的日常鉴定与回收，努力构建诚信收藏品平台，提供中高档收藏品的大宗批发、零售及投资。</span>,
         button: 'learn more',
-      },
-      {
-        title: '<span style="font-size: 65px;color:#000000;line-height: 200px;">创源地</span><span style="font-size: 18px;color:#000000;line-height: 100px;">文化传播有限公司</span>',
-        content: <span
-          style={{color: 'black'}}>致力于钱币、纪念币、金银贵金属纪念品及邮票等收藏品的日常鉴定与回收，努力构建诚信收藏品平台，提供中高档收藏品的大宗批发、零售及投资。</span>,
-        button: <span style={{color: '#000'}}>Learn More</span>,
       }
     ]
     const childrenToRender = childrenData.map((item, i) => {
@@ -89,7 +89,7 @@ class Banner extends React.Component {
           <BannerAnim
             key="banner"
             autoPlay
-            autoPlaySpeed={5000}
+            autoPlaySpeed={3000}
           >
             {childrenToRender}
           </BannerAnim>

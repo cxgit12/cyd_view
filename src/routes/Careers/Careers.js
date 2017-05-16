@@ -65,7 +65,7 @@ class Careers extends React.Component {
       ))
     }
     return (
-      <Content style={{padding: '0 100px', minHeight: 600,background:'#defcf4'}}>
+      <Content style={{padding: '0 100px', minHeight: 600,}} className="nr">
         <Spin spinning={this.state.loading}>
           <div className="car-title"><h1>招贤纳士</h1></div>
           <div>
@@ -75,7 +75,7 @@ class Careers extends React.Component {
                   transitionName="fade"
                   transitionAppear
                 >
-                    <Anchor style={{background:'#defcf4'}}>
+                    <Anchor style={{background:'url(http://oow7renvm.bkt.clouddn.com/bj.png)'}} className="car-link">
                       {linkList}
                     </Anchor>
                 </Animate>

@@ -1,5 +1,5 @@
 import React from 'react'
-import './title.scss'
+import './Title.scss'
 class Title extends React.Component{
   constructor(props){
     super(props)

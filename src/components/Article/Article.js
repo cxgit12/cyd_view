@@ -30,13 +30,13 @@ export default class Article extends React.Component {
   render() {
     const response = this.state.response
     return (
-    <Content style={{ padding: '10px 200px',background:'#dedede' }}>
+    <Content style={{ padding: '10px 200px',background:'white' }}>
       <div className="tools"><Link to="/news">&lt;&lt;返回上一级</Link></div>
       <Spin spinning={this.state.loading}>
         {response != null?<QueueAnim type="bottom" style={{background:'white'}}>
           {[
             <Title text={response.data.title} key={'title'}/>,
-            <div style={{minHeight:500,padding:'20px 60px'}} key={'content'}>
+            <div style={{minHeight:500,padding:'20px 60px'}} key={'content'} className="ct">
               <div dangerouslySetInnerHTML={{__html:response.data.content}}/>
             </div>
           ]}
