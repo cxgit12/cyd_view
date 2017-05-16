@@ -4,6 +4,8 @@
 
 `git merge zido/master`
 
+`git add .`
+
 `git commit -m "同步"`
 
 `git push`
