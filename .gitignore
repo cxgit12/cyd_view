@@ -1,5 +1,6 @@
 /node_modules/
-*.log
+*.log*
 /dist/
 /.vscode/
 /.idea/
+Web.config
