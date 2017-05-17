@@ -11,7 +11,6 @@
 import React, {PropTypes} from 'react'
 import {Layout, Row, Col} from 'antd'
 const Content = Layout.Content
-import QueueAnim from 'rc-queue-anim'
 import Animate from 'rc-animate'
 import {Anchor, Spin} from 'antd'
 const {Link} = Anchor
@@ -66,9 +65,8 @@ class Careers extends React.Component {
     }
     return (
       <Content style={{padding: '0 100px', minHeight: 600,}} className="nr">
-        <Spin spinning={this.state.loading}>
-          <div className="car-title"><h1>招贤纳士</h1></div>
-          <div>
+        <div className="car-title"><h1>招贤纳士</h1></div>
+          <Spin spinning={this.state.loading} delay={500} tip={'正在加载...'}>
             <Row>
               <Col span={3}>
                 <Animate
@@ -82,14 +80,13 @@ class Careers extends React.Component {
               </Col>
               <Col span={21}>
                 
-                <QueueAnim component="ul" type="bottom" style={{padding:20}}>
+                <ul style={{padding:20}}>
                   {infoList}
-                </QueueAnim>
+                </ul>
               
               </Col>
             </Row>
-          </div>
-        </Spin>
+          </Spin>
       </Content>
     )
   }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Spin, Layout, Pagination } from 'antd'
-import QueueAnim from 'rc-queue-anim'
 import './Commodities.scss'
+import QueueAnim from 'rc-queue-anim'
 import Commodity from '../../components/Commodity'
 const Content = Layout.Content
 
@@ -18,8 +18,6 @@ export default class Commodities extends React.Component {
       response: null,
       loading: true
     } )
-  }
-  componentDidMount() {
     fetch( '/api/pub/commodity/index', {
       method: 'post',
       headers: {
@@ -31,6 +29,7 @@ export default class Commodities extends React.Component {
     } ) )
   }
   onPageChange( pageNum ) {
+    scrollTo(0,0)
     this.setState( {
       response: null,
       loading: true
@@ -60,21 +59,21 @@ export default class Commodities extends React.Component {
       }
     }
     return (
-    <Content style={{ padding: '10px' }}  className="coms-bg">
-      <div style={{ width: 1000, margin: '0 auto' }}>
+      <Content style={{ padding: '10px' }}  className="coms-bg">
         <Spin spinning={this.state.loading}>
-          <div className="com-title"><img src="http://oow7renvm.bkt.clouddn.com/jptj.jpg"/></div>
-          <div style={{ minHeight: 1044 }}>
-            {list.length > 0 ? <QueueAnim component="ul">
-                                 {list}
-                               </QueueAnim> : null}
-          </div>
-          <div className="clear-fix">
-            <div className="item-page">{response !== null ? <Pagination showQuickJumper defaultCurrent={response.data.number + 1} total={response.data.totalElements} onChange={this.onPageChange.bind( this )}/> : null}</div>
+          <div style={{ width: 1000, margin: '0 auto', minHeight:600 }}>
+              <div className="com-title"><img src="http://oow7renvm.bkt.clouddn.com/jptj.jpg"/></div>
+              {list.length > 0 ? 
+                <QueueAnim component="ul">
+                                    {list}
+                                  </QueueAnim>:null
+              }
           </div>
         </Spin>
-      </div>
-    </Content>
+        <div className="clear-fix">
+                <div className="item-page">{response !== null ? <Pagination showQuickJumper defaultCurrent={response.data.number + 1} total={response.data.totalElements} onChange={this.onPageChange.bind( this )}/> : null}</div>
+              </div>
+      </Content>
     )
   }
 }

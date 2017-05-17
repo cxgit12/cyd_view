@@ -105,7 +105,7 @@ export default class News extends React.Component {
     }
     return (
     <Content style={{ padding: '10px' }}>
-      <Spin spinning={this.state.loading}>
+      <Spin spinning={this.state.loading}  delay={500} tip={'正在加载...'}>
         <div style={{minHeight:600}}>
           
             {list.length > 0 ? <div style={{width:this.state.middle?1320:1020,margin:'auto'}}>
