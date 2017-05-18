@@ -19,14 +19,9 @@ export default class Partner extends React.Component {
               <div key={'li1div3'}><Button type="primary" size="large"  onClick={()=>{window.open('http://web.zgqbyp.com/qbypkh/?id=2713')}}> 立即开户 </Button></div>
             </div></li>
             <li key={'li2'}>
-<<<<<<< HEAD
-              <QueueAnim type={'bottom'} className="item">
-                {[
-=======
               <div type={'bottom'} className="item">
->>>>>>> zido/master
                   <div className="item-logo" key={'li2div1'}><img src={'http://oow7renvm.bkt.clouddn.com/agwj.png'}/>
-                  </div>,
+                  </div>
                   <div key={'li2div2'}><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安徽安贵大宗商品电子商务现货市场有限公司成
                     立于2014年6月份，注册资金5000万人民币，公司位于安徽省北部偏西、淮河岸边的淮南，这里既是中国能源之都也是华东工业粮仓。安徽安贵大宗商品交
                     易中心是安徽省淮南市政府大力扶持的企业重点金融项目，也是淮南市及周边地区唯一一家综合性大宗商品交易中心企业。安贵交易中心在国家法律法规范围内开展
@@ -37,12 +32,7 @@ export default class Partner extends React.Component {
               </div>
             </li>
             <li key="li3">
-<<<<<<< HEAD
-              <QueueAnim type={'bottom'} className="item">
-                {[
-=======
               <div type={'bottom'} className="item">
->>>>>>> zido/master
                   <div className="item-logo" key={'li3div1'}><img src={'http://oow7renvm.bkt.clouddn.com/30wj.png'}/>
                   </div>
                   <div key={'li3div2'}><p>
