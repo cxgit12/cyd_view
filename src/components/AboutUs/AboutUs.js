@@ -6,6 +6,3 @@ import enquire from 'enquire.js'
 const Content = Layout.Content
 import './AboutUs.scss'
 
-Content:<span>
-    <img src="http://odp22tnw6.bkt.clouddn.com/cyd_logo.png"/>
-</span>
