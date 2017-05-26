@@ -7,6 +7,7 @@ import Article from './Article'
 import Partner from './Partner'
 import Commodities from './Commodities'
 import Careers from './Careers'
+import AboutUs from './AboutUs'
 export const createRoutes = () => (
   <Router history={browserHistory}>
     <Route path="/" component={AppLayout}>
@@ -16,6 +17,7 @@ export const createRoutes = () => (
       <Route path="partner" component = {Partner}/>
       <Route path="commodities" component={Commodities}/>
       <Route path="careers" component={Careers}/>
+      <Route path="about" component={AboutUs}/>
     </Route>
   </Router>
 )
