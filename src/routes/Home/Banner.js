@@ -22,6 +22,12 @@ class Banner extends React.Component {
         button: [<a href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-16086531040.27.3jc4D9&id=546334109345" key="href1">了解详情</a>,<a href="http://www.chuangyuandi.net.cn/news/23" key="href2">了解更多</a>]
       },
       {
+        title: '<span style="font-size: 65px;color:white;line-height: 350px;">&nbsp;</span>',
+        content: <span
+        style={{color: 'white'}}></span>,
+        button: [<a href="http://www.chuangyuandi.net.cn/news/32" key="href3" className="learnmore">了解更多</a>],
+      },
+      {
         title: null,
         content: <QueueAnim type={['bottom','top']} className="word-vertical banner-text pull-right" style={{position:'relative',left:200,top:60}}>
         {[
@@ -31,12 +37,6 @@ class Banner extends React.Component {
         ]}
         </QueueAnim>,
         button: null,
-      },
-      {
-        title: '<span style="font-size: 65px;color:white;line-height: 350px;">&nbsp;</span>',
-        content: <span
-        style={{color: 'white'}}>&nbsp;</span>,
-        button: [<a href="http://www.chuangyuandi.net.cn/news/32" key="href3" className="learnmore">了解更多</a>],
       },
       {
         title: '<span style="font-size: 65px;color:white;line-height: 200px;">创源地</span><span style="font-size: 18px;color:white;line-height: 100px;">文化传播有限公司</span>',
