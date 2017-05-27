@@ -1,0 +1,56 @@
+.about-info{
+  background: #6f5a9b;
+  font-size:15px;
+  height:300px;
+  overflow-y: auto;
+  color:white;
+  padding-top:3%;
+}
+.about-info > p{
+	width:95%;
+	margin:auto;
+	line-height:23px;
+}
+.about-banner{
+  width:100%;
+  height:300px;
+}
+
+.banner-user{
+  height:300px;
+  img{
+    width:100%;
+    height:100%;
+    -webkit-user-drag: none;
+    cursor: pointer;
+  }
+}
+
+.about-item{
+  width:100%;
+  .about-item-img{
+    width:100%;
+    height:180px;
+    background-position: center;
+  }
+  .about-item-desc{
+    margin-top:10px;
+    font-size:16px;
+    line-height:20px;
+    text-align: center;
+  }
+}
+
+.about-item-container{
+  padding:10px 5px;
+}
+.contact-info > p{
+	font-size:20px;
+	padding-top:15px;
+}
+.office-info{
+	padding-top:3%;
+}
+.office-info > p{
+	padding-top:1%;
+}

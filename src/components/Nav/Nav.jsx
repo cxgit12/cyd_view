@@ -31,6 +31,7 @@ class Header extends React.Component {
       menu3: <Link to="/partner">商业伙伴</Link>,
       menu4: <Link to="/news">时讯速览</Link>,
       menu5: <Link to="/careers">招贤纳士</Link>,
+      menu6: <Link to="/about">关于我们</Link>
     }
     const navChildren = Object.keys( navData ).map( ( key, i ) => (<Item key={i} className="menu">
                                                                      {navData[ key ]}

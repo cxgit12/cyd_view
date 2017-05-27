@@ -71,7 +71,6 @@ export default class News extends React.Component {
 
     const list = []
     const {response} = this.state
-    console.log(this.state)
     /*if(this.state.middle)
       list.push(<div className="clear-fix">
                         <div className="pull-right">

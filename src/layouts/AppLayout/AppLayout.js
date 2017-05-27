@@ -4,6 +4,7 @@ import React from 'react'
 import 'antd/dist/antd.min.css'
 import enquire from 'enquire.js'
 import './core.scss'
+import {BackTop } from 'antd'
 
 class AppLayout extends React.Component {
   constructor(props) {
@@ -51,6 +52,9 @@ class AppLayout extends React.Component {
         <Nav id="nav_1_0" key="nav_1_0" isMode={this.state.isMode}/>
         <div style={{minHeight:600}}>
           {this.props.children}
+        </div>
+        <div>
+          <BackTop/>
         </div>
         <Footer id="footer_0_0" key="footer_0_0" isMode={this.state.isMode}/>
       </div>
