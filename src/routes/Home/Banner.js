@@ -24,6 +24,12 @@ class Banner extends React.Component {
       {
         title: '<span style="font-size: 65px;color:white;line-height: 350px;">&nbsp;</span>',
         content: <span
+         style={{color: 'white'}}></span>,
+        button: [<a href="http://www.chuangyuandi.net.cn/news/36" key="href5" className="learnmore">了解更多</a>],
+      },
+      {
+        title: '<span style="font-size: 65px;color:white;line-height: 350px;">&nbsp;</span>',
+        content: <span
           style={{color: 'white'}}></span>,
         button: [<a href="http://www.chuangyuandi.net.cn/news/32" key="href3" className="learnmore">了解更多</a>,<a href="http://www.chuangyuandi.net.cn/news/35" key="href4" className="learnmore">关于乐游</a>],
       },
