@@ -13,7 +13,7 @@ class AppLayout extends React.Component {
       isMode: false
     }
   }
-  
+
   componentDidMount() {
     // 适配手机屏幕;
     this.enquireScreen((isMode) => {

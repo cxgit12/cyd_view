@@ -26,7 +26,7 @@ class Header extends React.Component {
     const isMode = props.isMode
     delete props.isMode
     const navData = {
-      menu1: <Link to="/">中心简介</Link>,
+      menu1: <Link to="/">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</Link>,
       menu2: <Link to="/commodities">产品专栏</Link>,
       menu3: <Link to="/partner">商业伙伴</Link>,
       menu4: <Link to="/news">时讯速览</Link>,

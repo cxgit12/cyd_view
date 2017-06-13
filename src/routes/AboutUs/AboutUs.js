@@ -51,7 +51,7 @@ export default class AboutUs extends React.Component{
             <Row className="about-item-container" gutter={16}>
               <Col span={8}>
                 <Card className="about-item">
-                  <div className="about-item-img" style={{backgroundImage:'url(http://oow7renvm.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170609164500.jpg)'}}>
+                  <div className="about-item-img" style={{backgroundImage:'url(http://oow7renvm.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20109164500.jpg)'}}>
                   </div>
                   <div className="about-item-desc">
                     <p>骨干领导层</p>
