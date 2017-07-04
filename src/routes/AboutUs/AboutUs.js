@@ -109,9 +109,13 @@ export default class AboutUs extends React.Component{
             </div>
           </div>
         </AbItem>
-        <AbItem info="03" title="联系方式" desc="CONTENT INFORMATION">
-          <div className="contact-info"><img src="http://oow7renvm.bkt.clouddn.com/map.jpg"/><p>地址：成都市成华区建设路钻石广场B座2310、2303</p><p>联系电话：028-69290215 &nbsp;&nbsp; 028-69290213</p><p>邮箱：15520728137@163.com</p></div>
+        <AbItem info="03" title="加入我们" desc="JOIN US">
+          <div className="contact-info"><img src="http://oow7renvm.bkt.clouddn.com/u=2685612645,634973104&fm=26&gp=0.jpg"/><p>一等二看三落空，一想二干三成功,&nbsp;&nbsp;现面向全国诚招合作商家</p><p>加盟热线：028-69290215 &nbsp;&nbsp; 028-69290213</p><p>地址：成都市成华区建设路钻石广场B座2310、2303</p><p><b>携手共创美好未来，我们期待您的加入！</b></p></div>
         </AbItem>
+        <AbItem info="04" title="联系方式" desc="CONTENT INFORMATION">
+          <div className="contact-info"><img src="http://oow7renvm.bkt.clouddn.com/map.jpg"/><p>联系电话：028-69290215 &nbsp;&nbsp; 028-69290213</p><p>地址：成都市成华区建设路钻石广场B座2310、2303</p><p>邮箱：15520728137@163.com</p></div>
+        </AbItem>
+        
       </Content>
     )
   }
