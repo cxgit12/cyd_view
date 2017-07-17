@@ -27,7 +27,6 @@ export default class AbItem extends React.Component{
     )
   }
 }
-
 AbItem.propTypes = {
   info:React.PropTypes.string.isRequired,
   title:React.PropTypes.string.isRequired,
