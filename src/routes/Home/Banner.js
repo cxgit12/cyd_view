@@ -24,6 +24,12 @@ class Banner extends React.Component {
       {
         title: '<span style="font-size: 65px;color:white;line-height: 350px;">&nbsp;</span>',
         content: <span
+        style={{color: 'white'}}>&nbsp;&nbsp;</span>,
+        button: null,
+      },
+      {
+        title: '<span style="font-size: 65px;color:white;line-height: 350px;">&nbsp;</span>',
+        content: <span
          style={{color: 'white'}}>&nbsp;&nbsp;</span>,
         button: [<a href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-16086531040.27.3jc4D9&id=546334109345" key="href1">了解详情</a>,<a href="http://www.chuangyuandi.net.cn/news/23" key="href2">了解更多</a>]
       },
@@ -63,7 +69,7 @@ class Banner extends React.Component {
           key="text"
           id={`${props.id}-wrapperBlock${i}`}
         >{title == null ? null : <span
-          className="logo"
+          className="logo"    
           key="logo"
           id={`${props.id}-titleBlock${i}`}
           dangerouslySetInnerHTML={{

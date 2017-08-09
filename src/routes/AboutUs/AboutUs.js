@@ -28,13 +28,13 @@ export default class AboutUs extends React.Component{
                     prefixCls="about-banner"
                     key="1"
                   >
-                    <img src="http://oow7renvm.bkt.clouddn.com/qt.jpg"/>
+                    <img src="http://oow7renvm.bkt.clouddn.com/cxwhqt.jpg"/>
                   </Element>
                   <Element
                     prefixCls="about-banner"
                     key="2"
                   >
-                    <img src="http://oow7renvm.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170424182428.jpg"/>
+                    <img src="http://oow7renvm.bkt.clouddn.com/cxwhgs.jpg"/>
                  </Element>
                 </BannerAnim>
               </Col>
@@ -51,16 +51,16 @@ export default class AboutUs extends React.Component{
             <Row className="about-item-container" gutter={16}>
               <Col span={8}>
                 <Card className="about-item">
-                  <div className="about-item-img" style={{backgroundImage:'url(http://oow7renvm.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20109164500.jpg)'}}>
+                  <div className="about-item-img" style={{backgroundImage:'url(http://oow7renvm.bkt.clouddn.com/zg1.jpg)'}}>
                   </div>
                   <div className="about-item-desc">
-                    <p>骨干领导层</p>
+                    <p>藏品展示区</p>
                   </div>
                 </Card>
               </Col>
               <Col span={8}>
                 <Card className="about-item">
-                  <div className="about-item-img" style={{backgroundImage:'url(http://oow7renvm.bkt.clouddn.com/bghj1.jpg)'}}>
+                  <div className="about-item-img" style={{backgroundImage:'url(http://oow7renvm.bkt.clouddn.com/w2.jpg)'}}>
                   </div>
                   <div className="about-item-desc">
                     <p>舒适的办公环境</p>
@@ -86,18 +86,18 @@ export default class AboutUs extends React.Component{
                 prefixCls="about-banner"
                 key="0"
               >
-                <img src="http://oow7renvm.bkt.clouddn.com/qyhj.jpg"/></Element>
+                <img src="http://oow7renvm.bkt.clouddn.com/cxwh1.jpg"/></Element>
               <Element
                 prefixCls="about-banner"
                 key="1"
               >
-                <img src="http://oow7renvm.bkt.clouddn.com/zt.jpg"/>
+                <img src="http://oow7renvm.bkt.clouddn.com/cxwh.jpg"/>
               </Element>
               <Element
                 prefixCls="about-banner"
                 key="2"
               >
-                <img src="http://oow7renvm.bkt.clouddn.com/team2.jpg"/>
+                <img src="http://oow7renvm.bkt.clouddn.com/qyhj.jpg"/>
              </Element>
             </BannerAnim>
             <div className="office-info">
@@ -110,10 +110,10 @@ export default class AboutUs extends React.Component{
           </div>
         </AbItem>
         <AbItem info="03" title="加入我们" desc="JOIN US">
-          <div className="contact-info"><img src="http://oow7renvm.bkt.clouddn.com/u=2685612645,634973104&fm=26&gp=0.jpg"/><p>一等二看三落空，一想二干三成功,&nbsp;&nbsp;现面向全国诚招合作商家</p><p>加盟热线：028-69290215 &nbsp;&nbsp; 028-69290213</p><p>地址：成都市成华区建设路钻石广场B座2310、2303</p><p><b>携手共创美好未来，我们期待您的加入！</b></p></div>
+          <div className="contact-info"><img src="http://oow7renvm.bkt.clouddn.com/u=2685612645,634973104&fm=26&gp=0.jpg"/><p>一等二看三落空，一想二干三成功,&nbsp;&nbsp;现面向全国诚招合作商家</p><p>加盟热线：028-69290215 &nbsp;&nbsp; 028-69290213</p><p>地址：成都市金牛区人民北路万达甲级写字楼B座702—703</p><p><b>携手共创美好未来，我们期待您的加入！</b></p></div>
         </AbItem>
         <AbItem info="04" title="联系方式" desc="CONTENT INFORMATION">
-          <div className="contact-info"><img src="http://oow7renvm.bkt.clouddn.com/map.jpg"/><p>联系电话：028-69290215 &nbsp;&nbsp; 028-69290213</p><p>地址：成都市成华区建设路钻石广场B座2310、2303</p><p>邮箱：15520728137@163.com</p></div>
+          <div className="contact-info"><img src="http://oow7renvm.bkt.clouddn.com/jnmap.jpg"/><p>联系电话：028-69290215 &nbsp;&nbsp; 028-69290213</p><p>地址：成都市金牛区人民北路万达甲级写字楼B座702—703</p><p>邮箱：15520728137@163.com</p></div>
         </AbItem>
         
       </Content>

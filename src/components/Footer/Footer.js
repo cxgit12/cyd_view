@@ -39,7 +39,7 @@ class Footer extends React.Component {
             <div>Copyright © 2017 <a href="http://www.chuangyuandi.net.cn">成都创源地文化传播有限公司</a> All Rights Reserved</div>
             <div>备案号：蜀ICP备17010963号-1</div>
             <div>电话：028-69290215</div>
-            <div>地址：成都市成华区建设路钻石广场B座2310</div>
+            <div>地址：成都市金牛区人民北路万达甲级写字楼B座702—703</div>
         </span>
       </TweenOne>
     </OverPack>)
